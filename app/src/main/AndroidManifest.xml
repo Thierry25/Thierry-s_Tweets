@@ -19,7 +19,7 @@
     <application
         android:name=".TwitterApplication"
         android:allowBackup="true"
-        android:icon="@drawable/twitter1"
+        android:icon="@drawable/twitter"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo" >
         <meta-data
@@ -52,6 +52,10 @@
         <activity
             android:name=".TimelineActivity"
             android:label="@string/title_activity_timeline" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
         </activity>
     </application>
 
